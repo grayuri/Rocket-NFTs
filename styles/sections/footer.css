@@ -1,0 +1,129 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
+
+footer p,
+footer a {
+  font-size: 20px;
+}
+
+#rollbackSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px;
+}
+
+#rollbackButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-logo);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rollbackButton>img {
+  width: 22px;
+  height: 22px;
+}
+
+#importantBottomInformations {
+  display: flex;
+  height: 300px;
+  border-top: 2px solid var(--subtitle-color);
+  border-bottom: 2px solid var(--subtitle-color);
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 15px;
+  border-right: 2px solid var(--subtitle-color);
+}
+
+#newsletter>h2 {
+  font-size: 30px;
+  width: 74%;
+}
+
+#newsletterInputDiv {
+  display: flex;
+}
+
+#newsletterInput {
+  width: 250px;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 20px;
+  background-color: var(--black-text);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#newsletterSubmitButton {
+  height: 50px;
+  width: 80px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+#hyperlinkDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+  width: 100%;
+}
+
+.hyperlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 120px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--subtitle-color);
+}
+
+.hyperlinks>p {
+  font-weight: 700;
+}
+
+#domainAndNetworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 40px;
+}
+
+#domain {
+  color: var(--subtitle-color);
+}
+
+#socialNetwork {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}

@@ -1,0 +1,64 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
+
+.astronautPhoto {
+  width: 350px;
+  border-radius: 5px;
+}
+
+#astronautsDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 180px;
+  width: 90%;
+}
+
+#astronautsDiv::before {
+  position: absolute;
+  content: '';
+  background-color: var(--card-color);
+  width: 2px;
+  height: 100%;
+  z-index: 1;
+}
+
+.astronaut {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  z-index: 10;
+}
+
+.astronautInformations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.astronautNumber {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.astronautName {
+  font-size: 20px;
+  color: var(--subtitle-color);
+}
+
+.astronautEngagement {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-logo);
+}
+

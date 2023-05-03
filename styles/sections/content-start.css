@@ -1,0 +1,99 @@
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0D0D0D;
+}
+
+#selectedArtistsImg {
+  height: 70px;
+}
+
+#catchphrase {
+  width: 170px;
+}
+
+#shortInformations>p, #selectedArtists>p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+#contentStartInformations>h1 {
+  font-size: 42px;
+}
+
+#contentStart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+#contentStartInformations {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+
+#shortInformations {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+#shortInformations>p {
+  width: 400px;
+}
+
+#selectedArtists {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+#contentStartInformations>h1 {
+  width: 450px;
+}
+
+/*
+#contentStartImages {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 40px;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 96%;
+}
+*/
+
+
+#contentStartImages {
+  display: grid;
+  margin: auto;
+  width: 80%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+/*
+#contentStartImages>img {
+  width: 250px;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+}
+*/
+
+#contentStartImages>img {
+  width: 220px;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+}
