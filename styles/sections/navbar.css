@@ -25,6 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 350px;
+  margin: 0 40px
 }
 
 .navLinks {
@@ -46,8 +47,22 @@ nav {
   height: 50px;
 }
 
+#conectWalletButton>img {
+  width: 15%;
+  margin: 10px;
+}
+
 #conectWalletButton>p {
   color: var(--black-text);
   font-weight: 700;
   font-size: 16px;
+  margin: 10px;
+  word-wrap: nowrap;
+}
+
+@media (max-width: 960px) {
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
