@@ -44,10 +44,6 @@ body {
   background-position: center center;
 }
 
-#complementarContent {
-  height: 660px;
-}
-
 #popularOfWeek {
   display: flex;
   flex-direction: column;
