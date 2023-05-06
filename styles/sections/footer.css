@@ -39,7 +39,6 @@ footer a {
 
 #importantBottomInformations {
   display: flex;
-  height: 300px;
   border-top: 2px solid var(--subtitle-color);
   border-bottom: 2px solid var(--subtitle-color);
 }
@@ -52,11 +51,12 @@ footer a {
   flex: 1;
   gap: 15px;
   border-right: 2px solid var(--subtitle-color);
+  padding: 80px 20px;
 }
 
 #newsletter>h2 {
   font-size: 30px;
-  width: 74%;
+  
 }
 
 #newsletterInputDiv {
@@ -91,6 +91,7 @@ footer a {
   align-items: center;
   flex: 2;
   width: 100%;
+  padding: 80px 20px;
 }
 
 .hyperlinks {
@@ -99,6 +100,7 @@ footer a {
   gap: 10px;
   width: 120px;
   list-style: none;
+  margin: auto 20px;
 }
 
 .links a {
@@ -114,8 +116,7 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
-  padding: 0 40px;
+  padding: 40px 40px;
 }
 
 #domain {
@@ -126,4 +127,37 @@ footer a {
   display: flex;
   justify-content: space-between;
   width: 250px;
+}
+
+@media (max-width: 920px) {
+  #importantBottomInformations {
+    flex-direction: column;
+  }
+
+  #newsletter {
+    border-right: none;
+    align-items: center;
+    border-bottom: 2px solid var(--subtitle-color);
+    height: 500px;
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  #rollbackSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #domainAndNetworks {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #hyperlinkDiv {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
