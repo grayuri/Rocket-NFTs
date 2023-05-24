@@ -24,7 +24,7 @@ nav {
 #navbarLinks {
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 320px;
   margin: 0 40px
 }
 

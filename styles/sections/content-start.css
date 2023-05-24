@@ -24,9 +24,8 @@
 }
 
 #contentStartInformations>h1 {
-  margin: 20px;
-  padding: 0 30px;
   font-size: 4.2rem;
+  width: 20%;
 }
 
 #contentStart {
@@ -72,18 +71,6 @@
   width: 420px;
 }
 
-/*
-#contentStartImages {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 40px;
-  flex-wrap: wrap;
-  gap: 15px;
-  width: 96%;
-}
-*/
-
-
 #contentStartImages {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -95,15 +82,6 @@
   padding: 0 40px;
   width: 100%;
 }
-
-/*
-#contentStartImages>img {
-  width: 250px;
-  border: 2px solid var(--text-color);
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
-}
-*/
 
 #contentStartImages>img {
   width: 90%;
@@ -131,7 +109,8 @@
 
   #contentStartInformations>h1 {
     text-align: center;
-    margin: 20px;
+    padding: 40px;
+    width: 100vw
   }
 
   #contentStartImages>img {
